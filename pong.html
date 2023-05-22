@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="misc/icon.png">
+    <script src="pong.js" defer></script>
+    <title>Pong!</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        #main {
+            background-color: black;
+            border: 2px solid white;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        #start_btn {
+            background-color: black;
+            color: white;
+            width: 300px;
+            height: 65px;
+            font-size: x-large;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-family: 'PressStart';
+        }
+
+        @font-face{
+            font-family: 'PressStart';
+            src: url("misc/PressStart2P-vaV7.ttf")
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="main" width="1700" height="850"></canvas><br>
+    <div id="b"><input id="start_btn" type="button" value="Start Game"></div>
+</body>
+
+</html>
